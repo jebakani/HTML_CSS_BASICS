@@ -1,0 +1,103 @@
+<!doctype html>
+<title>Example</title>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+    /* it set the style for te*/
+    body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: row;
+        margin: 0;
+        background-color:rosybrown
+    }
+
+    .NavBar {
+        background-color: indianred;
+        flex: 1;
+    }
+   
+    .MainContent {
+        display: flex;
+        flex-direction: column;
+        flex: 5;
+    }
+
+    .InnerContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .InnerContainerItem {
+        flex: 4;
+        align-content: center;
+    }
+
+    .InnerContainer article {
+        min-height: 60vh;
+        background-color: lightslategray;
+        text-align: left;
+    }
+
+    img {
+        border: 1px solid black;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .InnerContainer SideBar {
+        background: rgb(138, 138, 133);
+        flex: 1;
+    }
+
+    header,
+    footer {
+        background-color: pink;
+        height: 20vh;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    header,
+    footer,
+    article,
+    nav,
+    SideBar {
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+    }
+</style>
+
+<body>
+    <nav class="NavBar">
+        <h3>Navigate to desire page by clicking link</h3>
+        <ul>
+            <li>
+                <a href="https://tvsnext.io/">Tvs Next</a>
+            </li>
+            <li><a href="https://www.bridgelabz.com/">BridgeLabz</a></li>
+        </ul>
+    </nav>
+    <div class="MainContent">
+        <header>Welcome to WebPage LayOut</header>
+        <div class="InnerContainer">
+            <div class="InnerContainerItem">
+                <article>
+                    <h2>Article 1</h2>
+                    <img src="../HTMLCSSFLEXBOX/assert/pic1.png" alt="Picture 1">
+                    <p>This example uses flexbox for the whole layout. It uses nested flex containers. The outer
+                        container uses flex-direction: column and contains the whole layout. The nested container uses
+                        (the default) flex-direction: row and contains the middle bit (i.e. the nav, article, and
+                        aside).</p>
+                </article>
+                <footer>Footer</footer>
+            </div>
+            
+            <SideBar>SideBar</SideBar>
+        </div>
+        
+    </div>
+</body>
