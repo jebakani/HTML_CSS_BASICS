@@ -1,3 +1,7 @@
+body
+{
+    padding:2cm;
+}
 .container
 {
     display: flex;
@@ -20,16 +24,37 @@
   display: flex;
   flex-flow: row wrap;
   font-weight: bold;
-  text-align: center;
+  align-content: center;
 }
 .mainContainerItem
 {
     text-align: left;
+    flex:  3 0px ;
     background-color: deepskyblue;
+    order: 2;
 }
 article
 {
     background-color:aqua;
     padding: 10px;
     margin: 10px;
+}
+/*Setting the style for the side bars*/
+.leftSideBar
+{
+ background-color: gold;
+ order: 1;
+}
+.rightSideBar
+{
+   
+    background-color: hotpink;
+    order: 3;
+}
+.sidebarItem
+{
+    align-content: center;
+    display: flex;
+    flex: 1 0 0;
+    border: 0px solid green;
 }
