@@ -1,6 +1,6 @@
 body
 {
-    padding:2cm;
+    padding:2em;
 }
 .container
 {
@@ -9,10 +9,12 @@ body
     flex-flow: column wrap;
     font-weight: bold;
     padding: 10px;
+    font-size: 16px;
 }
 .headerContainner
 {
     background-color: coral;
+    font-size: 20px;
 }
 .footerContainer
 {
@@ -24,7 +26,7 @@ body
   display: flex;
   flex-flow: row wrap;
   font-weight: bold;
-  align-content: center;
+  text-align: center;
 }
 .mainContainerItem
 {
@@ -53,8 +55,6 @@ article
 }
 .sidebarItem
 {
-    align-content: center;
-    display: flex;
     flex: 1 0 0;
     border: 0px solid green;
 }
