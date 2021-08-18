@@ -1,0 +1,92 @@
+<!doctype html>
+
+<head>
+    <title>Example</title>
+    <style>
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: row;
+            /*Alling the flex in center*/
+            align-items: center;
+        }
+
+        .card {
+            flex: 0 0 200px;
+            margin: 10px;
+            border: 1px solid rgb(204, 204, 204);
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            max-width: 100%;
+        }
+
+        .card .text {
+            padding: 0 20px 20px;
+        }
+
+        .card .text>button {
+            background-color: snow;
+            border: 0;
+            color: coral;
+            padding: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<!-- create the cards using the div and each div contain pic,heading,and paragaraph and button-->
+
+<body>
+    <main class="cards">
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/pic1.png" alt="Sample photo">
+            <div class="text">
+                <h3>EXO LOGO</h3>
+                <p>Collaboratively administrate empowered markets via plug-and-play networks.</p>
+                <button>Read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/Pic2.jfif" alt="Sample photo">
+            <div class="text">
+                <h3>LOGO 2</h3>
+                <p>Dramatically engage seamlessly visualize quality intellectual capital without superior collaboration
+                    and idea-sharing.</p>
+                <button>Read more</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/pic7.jfif" alt="Sample photo">
+            <div class="text">
+                <h3>LOGO 3</h3>
+                <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+                <button>Read more</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/pic8.jfif" alt="Sample photo">
+            <div class="text">
+                <h3>LOGO 4</h3>
+                <p>Imagine jumping into that boat, and just letting it sail wherever the wind takes you...</p>
+                <button>Read more</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/pic3.jfif" alt="Sample photo">
+            <div class="text">
+                <h3>Cutie Dino</h3>
+                <p>Holisticly predominate extensible testing procedures for reliable supply chains.</p>
+                <button>read More</button>
+            </div>
+        </article>
+        <article class="card">
+            <img src="../HTMLCSSFLEXBOX/assert/Pic4.jfif" alt="Sample photo">
+            <div class="text">
+                <h3>Happiness</h3>
+                <p>Objectively innovate empowered manufactured products whereas parallel platforms.</p>
+                <button>Stop here</button>
+            </div>
+        </article>
+    </main>
+</body>
