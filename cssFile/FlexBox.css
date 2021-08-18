@@ -14,3 +14,22 @@
 {
     background-color:lightgreen;
 }
+/* Setting the main container item such as articles and side bars*/
+.mainContainer
+{
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+.mainContainerItem
+{
+    text-align: left;
+    background-color: deepskyblue;
+}
+article
+{
+    background-color:aqua;
+    padding: 10px;
+    margin: 10px;
+}
